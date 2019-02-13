@@ -1,0 +1,110 @@
+<!doctype>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Modal</title>
+        <!-- load bootstrap css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- load jquery and bootstrap js-->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h5>Bootstrap Modal</h5>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#largeModal">
+                Large Modal
+            </button>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mediumModal">
+                Medium Modal
+            </button>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#smallModal">
+                Small Modal
+            </button>
+        </div>
+
+        <!--modal large-->
+        <div class="modal fade" id="largeModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h4>Large Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        In a modern-day England where two warring factions 
+                        of witches live amongst humans, seventeen-year-old 
+                        Nathan is an abomination, the illegitimate son of 
+                        the world's most powerful and violent witch. Nathan 
+                        is hunted from all sides: nowhere is safe and no one 
+                        can be trusted. Now, Nathan has come into his own 
+                        unique magical Gift, and he's on the run--but the 
+                        Hunters are close behind, and they will stop at nothing 
+                        ntil they have captured Nathan and destroyed his father.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-success">Save</button>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal medium-->
+        <div class="modal fade" id="mediumModal">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h4>Medium Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        One day fourteen-year-old Sophie Amundsen comes home 
+                        from school to find in her mailbox two notes, with one
+                        question on each: "Who are you?" and "Where does the
+                        world come from?" From that irresistible beginning, 
+                        Sophie becomes obsessed with questions that take her 
+                        far beyond what she knows of her Norwegian village. 
+                        Through those letters, she enrolls in a kind of 
+                        correspondence course, covering Socrates to Sartre, 
+                        with a mysterious philosopher, while receiving letters 
+                        addressed to another girl. Who is Hilde? And why does 
+                        her mail keep turning up? To unravel this riddle, Sophie 
+                        must use the philosophy she is learning—but the truth 
+                        turns out to be far more complicated than she could have 
+                        imagined.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-info">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--modal small-->
+        <div class="modal fade" id="smallModal">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger text-white">
+                        <h4>Small Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        The Selection began with thirty-five girls.
+                        Now with the group narrowed down to the six Elite, the competition to win 
+                        Prince Maxon's heart is fiercer than ever—and America is still 
+                        struggling to decide where her heart truly lies. Is it with Maxon,
+                         who could make her life a fairy tale? Or with her first love, Aspen?
+
+                        America is desperate for more time. But the rest of the Elite know 
+                        exactly what they want—and America's chance to choose is about to slip away.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-danger">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
