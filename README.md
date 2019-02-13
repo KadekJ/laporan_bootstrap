@@ -1,0 +1,24 @@
+# laporan_bootstrap
+bootstrap color
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/bootstrap_color.png)
+bootstrap Grid
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/bootstrap_grid.png)
+bootstrap button
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/bootstrap_button.png)
+bootstrap alert
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/bootstrap_alert_1.png)
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/bootstrap_alert_2.png)
+bootstrap card
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/bootstrap_card.png)
+navigation bar
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/navigation_bar.png)
+bootstrap slider
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/bootstrap_slide.png)
+bootstrap modal
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/modal_1.png)
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/modal_2.png)
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/modal_3.png)
+bootstrap table
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/bootstrap_table_1.png)
+![alt text](https://github.com/KadekJ/laporan_bootstrap/blob/master/bootstrap_table_2.png)
+
